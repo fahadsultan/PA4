@@ -2,7 +2,7 @@
 
 <center><h1>PROGRAMMING ASSIGNMENT 4</h1>
 
-**Due: Oct 1, 2024, 11:59 PM**</center>
+**Due: Tuesday, Oct 1, 2024, 11:59 PM**</center>
 
 ---
 **Instructions**
@@ -40,12 +40,22 @@ In this assignment, you will implement a Binary Search Tree (BST) data structure
 
    Example 1:
 
-   `Input: nums = [-10,-3,0,5,9]` <br/>
+   _Input_: `nums = [-10,-3,0,5,9]` <br/>
+   _Output_: \
    <img src="https://assets.leetcode.com/uploads/2021/02/18/btree1.jpg">
    or 
    <img src="https://assets.leetcode.com/uploads/2021/02/18/btree2.jpg">
 
-   
+   Example 2:
+
+
+    _Input_: `nums = [1,3]` <br/>
+    _Output_: \
+    <img src="https://assets.leetcode.com/uploads/2021/02/18/btree.jpg">
+
+    _Explanation_: [1,null,3] and [3,1] are both height-balanced BSTs.
+
+<br/>
 
 7. `lowestCommonAncestor(int p, int q)`: Returns the lowest common ancestor of two elements in the BST. If either element is not in the BST, the method should return -1. 
 
@@ -60,9 +70,9 @@ In this assignment, you will implement a Binary Search Tree (BST) data structure
    Given binary search tree:  
    <img src="https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.png">
 
-   Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8 \
-Output: 6 \
-Explanation: The LCA of nodes 2 and 8 is 6.
+   _Input_: `root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8` \
+_Output_: `6` \
+_Explanation_: The LCA of nodes 2 and 8 is 6.
 
    **Example 2**:
 
@@ -70,11 +80,13 @@ Explanation: The LCA of nodes 2 and 8 is 6.
    <img src="https://assets.leetcode.com/uploads/2018/12/14/binarysearchtree_improved.png">
 
 
-   Input: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4 \
-Output: 2 \
-Explanation: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
+   _Input_: `root = [6,2,8,0,4,7,9,null,null,3,5]`, `p = 2`, `q = 4` \
+_Output_: `2` \
+_Explanation_: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
 
-Feel free to define any additional helper methods or classes as needed. All helper methods must be private.
+Feel free to define any additional helper methods or classes as needed. 
+
+All helper methods must be private.
 
 ## Evaluation
 
